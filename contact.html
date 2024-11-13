@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Navigatiebalk -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Mijn Portfolio</a>
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home</a>
+        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<!-- Contactpagina Inhoud -->
+<div class="container mt-5">
+    <h2>Contacteer Mij</h2>
+    <p>Voor vragen of verdere informatie, neem gerust contact met mij op via onderstaande gegevens of vul het formulier in.</p>
+    
+    <!-- Contactgegevens -->
+    <div class="contact-info mb-4">
+        <p><strong>Email:</strong> <a href="mailto:alexander.vanhoof@ap.be">alexander.vanhoof@ap.be</a></p>
+        <p><strong>Telefoon:</strong> <a href="tel:+32486543740">0486 54 37 40</a></p>
+    </div>
+
+    <!-- Contactformulier -->
+    <form>
+        <div class="form-group">
+            <label for="name">Naam</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Bericht</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Verstuur</button>
+    </form>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-5">
+    <p>© 2023 Mijn Portfolio</p>
+</footer>
+
+</body>
+</html>

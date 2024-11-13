@@ -1,0 +1,19 @@
+/* style.css */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.navbar {
+    background-color: #333;
+}
+.navbar a {
+    color: white;
+    margin: 0 15px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
